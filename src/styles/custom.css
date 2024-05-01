@@ -1,0 +1,26 @@
+@tailwind components;
+
+@layer components {
+    .btn {
+        @apply px-4 py-2;
+        @apply rounded-md;
+    }
+
+    .btn-info {
+        @apply btn;
+        @apply bg-blue-500;
+        @apply hover:bg-blue-700;
+    }
+
+    .btn-success {
+        @apply btn;
+        @apply bg-green-500;
+        @apply hover:bg-green-700;
+    }
+
+    .btn-error {
+        @apply btn;
+        @apply bg-red-500;
+        @apply hover:bg-red-700;
+    }
+}
